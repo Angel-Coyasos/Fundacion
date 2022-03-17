@@ -1,0 +1,33 @@
+
+:root {
+    --color-principal: #ffeb1785;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62,5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 250px;
+    min-width: 320px;
+    background-color: var(--color-principal);
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--color-principal);
+
+}
